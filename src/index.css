@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #000300;
+}
+.ityped-cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
